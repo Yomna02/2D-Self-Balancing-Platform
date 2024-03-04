@@ -26,7 +26,7 @@ The control system incorporates a PID controller to achieve the desired orientat
 
 <img src="https://github.com/Yomna02/2D-Self-Balancing-Platform/blob/main/Media/PID%20Controller.png?raw=true" alt="PID Controller" width="600" height="400">
 
-## Control Implementation: Sensor Calibration, Servo Write, Integration with Controller
+## Control Implementation
 The control implementation involves several steps, including sensor calibration, servo motor mapping, and integration with the PID controller. 
 
 **Sensor Calibration:** The IMU sensor (MPU-6050) is calibrated to obtain smooth and accurate signals for roll and pitch. The accelerometer readings are used to compute the roll and pitch angles directly, while the gyroscope readings are integrated to obtain the angular orientations. The sensor data from both sources is then processed using a complementary filter with weights to combine them into filtered outputs for each axis.

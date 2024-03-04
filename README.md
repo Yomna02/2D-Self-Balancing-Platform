@@ -18,11 +18,14 @@ The circuit wiring and hardware setup can be found in the project documentation,
 
 ## LabVIEW Interface
 LabVIEW serves as the control interface tool for this project, providing a user-friendly environment for monitoring and controlling the platform. The LabVIEW graphical programming interface and LINX toolbox are utilized to input desired parameters, view real-time position feedback, and adjust control settings. The front control panel in LabVIEW displays all the relevant parameters and system state indicators.
+
 ![Front Panel](https://github.com/Yomna02/2D-Self-Balancing-Platform/blob/main/Media/Front%20Panel.png?raw=true)
 
 ## Controller Design
 The control system incorporates a PID controller to achieve the desired orientation of the platform holder. The PID controller takes a desired setpoint and a feedback signal as inputs and generates an actuation signal for the servo motors for roll and pitch directions. The gains for the proportional (P) and proportional-derivative (PD) components of the controller were fine-tuned to achieve optimal performance, balancing responsiveness, accuracy, and smoothness of movement.
+
 ![PID Controller](https://github.com/Yomna02/2D-Self-Balancing-Platform/blob/main/Media/PID%20Controller.png?raw=true)
+<img src="https://github.com/Yomna02/2D-Self-Balancing-Platform/blob/main/Media/PID%20Controller.png?raw=true" alt="PID Controller" width="400" height="300">
 
 ## Control Implementation: Sensor Calibration, Servo Write, Integration with Controller
 The control implementation involves several steps, including sensor calibration, servo motor mapping, and integration with the PID controller. 
@@ -35,7 +38,8 @@ The control implementation involves several steps, including sensor calibration,
 
 ## Final Demonstration
 The integrated system demonstrates precise control over the orientation of the platform holder. The LabVIEW interface allows users to input desired parameters, monitor real-time position feedback, and adjust control settings as needed. The system's performance has been optimized through servo motor mapping, IMU sensor calibration, and PID controller fine-tuning.
-![The Platform in Action](Demonstration Video.mp4)
+
+You can view the platform in action through the [demo video](https://github.com).
 
 ## Conclusion
 In conclusion, this project successfully achieved control over the orientation of a platform holder using an Arduino Nano microcontroller. The LabVIEW programming environment provided an intuitive and user-friendly interface for monitoring and controlling the platform. The integration of various components, from servo motor mapping to IMU sensor calibration and PID controller design, resulted in a responsive system.

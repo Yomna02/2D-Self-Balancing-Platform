@@ -16,7 +16,7 @@ The following components were used to build the project:
 <img src="https://github.com/Yomna02/2D-Self-Balancing-Platform/blob/main/Media/Wiring.png?raw=true" alt="Connections" width="500" height="400">
 <img src="https://github.com/Yomna02/2D-Self-Balancing-Platform/blob/main/Media/Isometric%20View.jpg?raw=true" alt="Final Assembled Setup" width="500" height="500">
 
-The circuit wiring and hardware setup can be found in the project documentation, including figures illustrating the connections and the final assembled setup.
+---------------------------
 
 ## LabVIEW Interface
 LabVIEW serves as the control interface tool for this project, providing a user-friendly environment for monitoring and controlling the platform. The LabVIEW graphical programming interface and `LINX toolbox` are utilized to input desired parameters, view real-time position feedback, and adjust control settings. The front control panel in LabVIEW displays all the relevant parameters and system state indicators.

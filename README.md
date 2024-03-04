@@ -17,7 +17,7 @@ The following components were used to build the project:
 The circuit wiring and hardware setup can be found in the project documentation, including figures illustrating the connections and the final assembled setup.
 
 ## LabVIEW Interface
-LabVIEW serves as the control interface tool for this project, providing a user-friendly environment for monitoring and controlling the platform. The LabVIEW graphical programming interface and LINX toolbox are utilized to input desired parameters, view real-time position feedback, and adjust control settings. The front control panel in LabVIEW displays all the relevant parameters and system state indicators.
+LabVIEW serves as the control interface tool for this project, providing a user-friendly environment for monitoring and controlling the platform. The LabVIEW graphical programming interface and `LINX toolbox` are utilized to input desired parameters, view real-time position feedback, and adjust control settings. The front control panel in LabVIEW displays all the relevant parameters and system state indicators.
 
 <img src="https://github.com/Yomna02/2D-Self-Balancing-Platform/blob/main/Media/Front%20Panel.png?raw=true" alt="Front Panel" width="700" height="400">
 
@@ -55,7 +55,7 @@ To suggest further enhancements to improve the system performance, the following
 
 2. **Implement state feedback:** Implementing state feedback for the position and velocity would improve the system's stability, response times, and disturbance rejection. By measuring or estimating the system's states, the control system can adapt and respond more effectively to different operating conditions and disturbances.
 
-3. **Implement a Kalman filter:** Incorporating a Kalman filter would enhance the estimation of the true state of the system by effectively combining the noisy sensor readings from the accelerometer and gyroscope. This filter would mitigate the limitations of each sensor and provide a more reliable estimate of the roll and pitch angles, leading to improved accuracy and robustness.
+3. **Implement a `Kalman filter`:** Incorporating a Kalman filter would enhance the estimation of the true state of the system by effectively combining the noisy sensor readings from the accelerometer and gyroscope. This filter would mitigate the limitations of each sensor and provide a more reliable estimate of the roll and pitch angles, leading to improved accuracy and robustness.
 
 By addressing these future work suggestions, the system can be further enhanced and optimized, paving the way for advanced applications and improved performance.
 
